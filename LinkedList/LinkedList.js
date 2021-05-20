@@ -70,10 +70,9 @@ class LinkedList {
 
     let Node = prevNode.next;
     prevNode.next = Node.next;
+    this.length--;
   }
 }
-
-
 
 const myLinkedList = new LinkedList(10)
 myLinkedList.append(20);
