@@ -40,7 +40,8 @@ class Stack {
   }
 
   peek() {
-    return this.top
+    const node = this.top;
+    return node;
   }
 }
 
@@ -48,6 +49,6 @@ const myStack = new Stack();
 myStack.push('Madhan');
 myStack.push('Govind');
 myStack.push('Palani');
-console.log(myStack.peek());
+myStack.peek();
 myStack.pop();
 console.log(myStack);
