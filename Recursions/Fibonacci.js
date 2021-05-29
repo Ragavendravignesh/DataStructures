@@ -4,4 +4,4 @@ function fib(number) {
     return fib(number - 1) + fib(number - 2)
 }
 
-console.log(fib(43));
+console.log(fib(4));
