@@ -15,7 +15,6 @@ function QuickSort(array, left, right) {
 }
 
 function partition(array, pivot, left, right) {
-    let pivotValue = pivot;
     let partitionIndex = left;
 
     for(let i = left; i < right; i++) {
