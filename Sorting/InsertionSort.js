@@ -5,9 +5,7 @@ function InsertionSort(array) {
     for(let i=0; i < length; i++) {
         for( let j=0; j< length; j++) {
             if( array[i] < array[j]) {
-                let temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
+                [array[i], array[j]] = [array[j], array[i]];
             }
         }
     }
