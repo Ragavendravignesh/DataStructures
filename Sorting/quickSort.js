@@ -8,7 +8,7 @@ function QuickSort(array, left, right) {
         pivot = right;
         partitionIndex = partition(array, pivot, left, right);
 
-        QuickSort(array, left, partitionIndex -1);
+        QuickSort(array, left, partitionIndex-1);
         QuickSort(array, partitionIndex+1, right);
     }
     return array;
