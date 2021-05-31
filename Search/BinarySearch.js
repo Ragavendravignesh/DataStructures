@@ -2,7 +2,7 @@ const numbers = [2, 5, 3, 8, 9, 1, 10];
 
 function binarySearch(numbers, value) {
     let sortedList = numbers.sort((a,b) => { return a-b });
-    let middle = sortedList[Math.floor(sortedList.length / 2 )];
+    let middle = sortedList[Math.floor( sortedList.length / 2 )];
 
     let result =false;
     if(value === middle)
