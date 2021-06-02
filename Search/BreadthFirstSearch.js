@@ -113,3 +113,10 @@ function traverse(node) {
     tree.right = node.right === null ? null : traverse(node.right);
     return tree;
 }
+
+
+/* Inorder preorder postorder
+    InOrder - Left root right
+    preorder - Root left right
+    postorder - left right root
+*/
